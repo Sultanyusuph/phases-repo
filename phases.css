@@ -1,0 +1,100 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wdth,wght@0,91.6,100..900;1,91.6,100..900&family=Rum+Raisin&family=SUSE+Mono:ital,wght@0,100..800;1,100..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(41, 43, 46);
+  width: 100%;
+  max-width: 2000px;
+  color: white;
+}
+header {
+  background-color: black;
+  width: 2000px;
+  height: 160px;
+}
+/* nav-styles*/
+.nav-links {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+  padding: 0 80rem;
+  position: relative;
+  bottom: 3rem;
+}
+.nav-links li {
+  list-style: none;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  color: white;
+}
+li a {
+  text-decoration: none;
+}
+.nav-links {
+  display: flex;
+}
+.header-btn {
+  font-size: 25px;
+  color: white;
+}
+.section{
+  color: white;
+position: relative;
+top: 2rem;
+left: 17rem;
+}
+.img{
+  position: absolute;
+  top: 3.5rem;
+  left: 23rem;
+}
+.img p{
+  position: absolute;
+  left: 3.5rem;
+}
+.section-0{
+  position: absolute;
+  top: 25rem;
+}
+.section-2{
+  position: absolute;
+  top: 27rem;
+  line-height: 1.5;
+  font-size: 18px;
+}
+.img-2{
+  position: absolute;
+  top: 34rem;
+  left: 25rem;
+}
+.img-2 p{
+  position: absolute;
+  left: 4.2rem;
+}
+.section-3{
+  position: absolute;
+top: 67rem;
+}
+.section-4{
+  position: absolute;
+  top: 69rem;
+    line-height: 1.5;
+  font-size: 18px;
+}
+.img-3{
+  position: absolute;
+  top: 75.5rem;
+  left: 20rem;
+}
+.img-3 img{
+  width: 700px;
+  height: 350px;
+}
+.img-3 p{
+  position: absolute;
+  left: 11.2rem;
+}
